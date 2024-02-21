@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-21T09:52:09.978Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="6OMNiMkYN_-4-pzoX0l4" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-21T10:15:54.372Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qLNrm3KkqntKhVCjARsm" version="23.1.5" type="github">
   <diagram name="第 1 页" id="fht6a-PDqWZK2c6vkvI2">
-    <mxGraphModel dx="1114" dy="1727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="768" dy="1554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -372,14 +372,17 @@
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-100" value="数据结构" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="804" y="2070" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="TGkRxMRqjUsvFXReb4Ec-139" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGkRxMRqjUsvFXReb4Ec-103" target="TGkRxMRqjUsvFXReb4Ec-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-103" value="持久化" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="803" y="2670" width="120" height="60" as="geometry" />
+          <mxGeometry x="803" y="2560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGkRxMRqjUsvFXReb4Ec-105" target="TGkRxMRqjUsvFXReb4Ec-136">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-105" value="线程模型" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="803" y="2490" width="120" height="60" as="geometry" />
+          <mxGeometry x="803" y="2400" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-106" value="集群" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="803" y="2810" width="120" height="60" as="geometry" />
@@ -437,9 +440,15 @@
         </mxCell>
         <UserObject label="单线程，IO多路复用" link="https://blog.csdn.net/ldw201510803006/article/details/124790121?spm=1001.2014.3001.5506" linkTarget="_blank" id="TGkRxMRqjUsvFXReb4Ec-136">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
-            <mxGeometry x="980" y="2400" width="130" height="36" as="geometry" />
+            <mxGeometry x="981" y="2412" width="130" height="36" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="TGkRxMRqjUsvFXReb4Ec-138" value="AOF" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="996" y="2510" width="100" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="TGkRxMRqjUsvFXReb4Ec-140" value="1、AOF文件过大影响性能，重写机制&lt;br&gt;2、操作后宕机，刷盘策略&lt;br&gt;3、重写过程 “一个拷贝、两处日志”" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1106" y="2505" width="214" height="41" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
