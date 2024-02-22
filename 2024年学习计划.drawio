@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T02:49:21.167Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="2cyDjWdlxYJ_zXe1bwS7" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T02:54:48.794Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="j7pP8bVoaKe3Slf005Hp" version="23.1.5" type="github">
   <diagram name="第 1 页" id="fht6a-PDqWZK2c6vkvI2">
     <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -280,6 +280,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGkRxMRqjUsvFXReb4Ec-59" target="6pOBHsLdgdak9V9xlZ-c-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGkRxMRqjUsvFXReb4Ec-59" target="6pOBHsLdgdak9V9xlZ-c-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-59" value="3、Redis" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
@@ -636,6 +639,9 @@
             <mxPoint x="1180" y="4272" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="BIX3i9k59wImC5nhEXX4-64" target="6pOBHsLdgdak9V9xlZ-c-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="BIX3i9k59wImC5nhEXX4-64" value="缓存击穿" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1300" y="4366" width="120" height="36" as="geometry" />
         </mxCell>
@@ -716,8 +722,18 @@
           <mxGeometry x="1385" y="5171.47" width="320" height="43" as="geometry" />
         </mxCell>
         <UserObject label="redisson" link="https://mp.weixin.qq.com/s/UgERiKehFxmB9XHzP5AWAg" linkTarget="_blank" id="6pOBHsLdgdak9V9xlZ-c-9">
-          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-            <mxGeometry x="804" y="2460" width="120" height="60" as="geometry" />
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="804" y="2400" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="redisson源码" link="https://mp.weixin.qq.com/s/tW0jDzx04TIFgXWqPLugdg" linkTarget="_blank" id="6pOBHsLdgdak9V9xlZ-c-11">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="803" y="2530" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="布隆过滤器" link="https://juejin.cn/post/7215454015713919031" linkTarget="_blank" id="6pOBHsLdgdak9V9xlZ-c-13">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="1420" y="4310" width="120" height="36" as="geometry" />
           </mxCell>
         </UserObject>
       </root>
