@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T04:32:14.672Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="jFrFH5DUQAtvfs84n6Zi" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T05:46:44.779Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="ZKdG1uwXqw1993Kjvd12" version="23.1.5" type="github">
   <diagram name="第 1 页" id="fht6a-PDqWZK2c6vkvI2">
     <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1059,6 +1059,11 @@
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-147" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-118" target="6pOBHsLdgdak9V9xlZ-c-145">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-158" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-118" target="6pOBHsLdgdak9V9xlZ-c-159">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1680" y="6670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-118" value="查询" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1610" y="6740" width="90" height="40" as="geometry" />
         </mxCell>
@@ -1133,6 +1138,21 @@
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-156" value="主备延迟问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1380" y="7755" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-159" target="6pOBHsLdgdak9V9xlZ-c-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-159" target="6pOBHsLdgdak9V9xlZ-c-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-159" value="Join" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1750" y="6650" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-160" value="Nested-Loop Join" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="6620" width="138" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-162" value="Block Nested-Loop" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="6690" width="138" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
