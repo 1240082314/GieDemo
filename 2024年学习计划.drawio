@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T05:50:50.749Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9qzlXlZKQkHXNaRIo5KB" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T06:19:02.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="9BRtrAqziFwkLoOBnOP0" version="23.1.5" type="github">
   <diagram name="第 1 页" id="fht6a-PDqWZK2c6vkvI2">
-    <mxGraphModel dx="1434" dy="1907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -798,14 +798,14 @@
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-18" value="数据库锁" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="970" y="7244" width="120" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="6pOBHsLdgdak9V9xlZ-c-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-19" target="6pOBHsLdgdak9V9xlZ-c-148">
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-149" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-19" target="6pOBHsLdgdak9V9xlZ-c-148">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6pOBHsLdgdak9V9xlZ-c-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-19" target="6pOBHsLdgdak9V9xlZ-c-150">
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-19" target="6pOBHsLdgdak9V9xlZ-c-171">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-19" value="数据库集群" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="970" y="7650" width="120" height="63" as="geometry" />
+          <mxGeometry x="970" y="7770" width="120" height="63" as="geometry" />
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGkRxMRqjUsvFXReb4Ec-61" target="6pOBHsLdgdak9V9xlZ-c-19">
           <mxGeometry relative="1" as="geometry">
@@ -1118,26 +1118,31 @@
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-148" target="6pOBHsLdgdak9V9xlZ-c-152">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="6pOBHsLdgdak9V9xlZ-c-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-148" target="6pOBHsLdgdak9V9xlZ-c-154">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-157" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-148" target="6pOBHsLdgdak9V9xlZ-c-156">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-148" value="主从复制" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1190" y="7610" width="120" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="6pOBHsLdgdak9V9xlZ-c-150" value="主备切换" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1190" y="7850" width="120" height="63" as="geometry" />
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-172" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="6pOBHsLdgdak9V9xlZ-c-171">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1250" y="7913" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-152" value="BinLog数据格式" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1380" y="7550" width="120" height="63" as="geometry" />
         </mxCell>
-        <mxCell id="6pOBHsLdgdak9V9xlZ-c-154" value="循环复制问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="7661" width="120" height="63" as="geometry" />
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-165" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-156" target="6pOBHsLdgdak9V9xlZ-c-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-167" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-156" target="6pOBHsLdgdak9V9xlZ-c-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-156" target="6pOBHsLdgdak9V9xlZ-c-168">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-156" value="主备延迟问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="1380" y="7755" width="120" height="63" as="geometry" />
+          <mxGeometry x="1380" y="7667" width="120" height="63" as="geometry" />
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-161" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-159" target="6pOBHsLdgdak9V9xlZ-c-160">
           <mxGeometry relative="1" as="geometry" />
@@ -1153,6 +1158,51 @@
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-162" value="Block Nested-Loop" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="1910" y="6690" width="138" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-164" value="备库所在机器的性能比主库性能差" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="7570" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-166" value="备库压力大" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="7667" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-168" value="大事务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1590" y="7770" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-170" value="提高可用性" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1171" y="7860" width="70" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-175" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-171" target="6pOBHsLdgdak9V9xlZ-c-174">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-171" target="6pOBHsLdgdak9V9xlZ-c-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-171" value="双Master结构" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="7890" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-174" value="循环复制问题" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="7833" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-176" target="6pOBHsLdgdak9V9xlZ-c-178">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-181" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-176" target="6pOBHsLdgdak9V9xlZ-c-180">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-176" value="主备切换" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="7953" width="120" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-178" value="可靠性优先" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1604" y="7903" width="100" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-180" value="可用性优先" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1605" y="8016" width="100" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-182" value="如果主从延迟过大，就不会进行主备切换。从而导致数据库不可用的状态。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="7900" width="210" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-183" value="可用性优先的话，可能都导致数据的不一致性，问题更大。所以我们通常会去保证可靠性优先，在这个基础上，通过减少主备延迟，提升系统的可用性。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="8013" width="260" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
