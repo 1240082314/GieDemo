@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-22T06:24:34.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="7_aiNPoLGmlSrKA_4ZkJ" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-22T06:33:42.995Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="FUrMKXMsxAuXENRlI03v" version="23.1.5" type="github">
   <diagram name="第 1 页" id="fht6a-PDqWZK2c6vkvI2">
-    <mxGraphModel dx="860" dy="2037" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="1784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -302,6 +302,9 @@
         </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-61" value="4、MySQL" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="1807" y="6170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-185" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="TGkRxMRqjUsvFXReb4Ec-65" target="6pOBHsLdgdak9V9xlZ-c-184">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="TGkRxMRqjUsvFXReb4Ec-65" value="5、Netty" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" parent="1" vertex="1">
           <mxGeometry x="1010" y="506" width="120" height="60" as="geometry" />
@@ -1203,6 +1206,35 @@
         </mxCell>
         <mxCell id="6pOBHsLdgdak9V9xlZ-c-183" value="可用性优先的话，可能都导致数据的不一致性，问题更大。所以我们通常会去保证可靠性优先，在这个基础上，通过减少主备延迟，提升系统的可用性。" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="3030" y="8013" width="260" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-184" target="6pOBHsLdgdak9V9xlZ-c-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-189" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-184" target="6pOBHsLdgdak9V9xlZ-c-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-191" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6pOBHsLdgdak9V9xlZ-c-184" target="6pOBHsLdgdak9V9xlZ-c-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-184" value="Socket" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="840" y="48" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-186" value="短连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="-41" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-188" value="长连接" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="47" width="130" height="40" as="geometry" />
+        </mxCell>
+        <UserObject label="WebSocket" link="https://mp.weixin.qq.com/s/4ss1CGvJcq_kHzwYCZse6A" linkTarget="_blank" id="6pOBHsLdgdak9V9xlZ-c-190">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+            <mxGeometry x="640" y="155" width="130" height="40" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-192" value="1、连接-&amp;gt;传输数据-&amp;gt; 关闭连接" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="-51" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6pOBHsLdgdak9V9xlZ-c-193" value="1、连接-&amp;gt;传输数据&lt;font color=&quot;#ff6b2b&quot;&gt; -&amp;gt;保持连接。。。-&amp;gt;传输数据&lt;/font&gt;-&amp;gt; 关闭连接" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="370" y="37" width="270" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
